@@ -61,3 +61,19 @@ footer {
   background-color: #aaa;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    display: block;
+  }
+
+  .item {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .item:last-child {
+    margin-bottom: 0;
+  }
+}
